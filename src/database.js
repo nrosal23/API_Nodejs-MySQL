@@ -1,11 +1,11 @@
 const mysql = require('mysql');
 
 const mysqlConnection = mysql.createConnection({
-    host: 'localhost',
-    port: '3306',
-    user: 'root',
-    password: 'Blackout_23',
-    database: 'personaldb'
+    host: '#######',
+    port: '',
+    user: '#####',
+    password: '#######',
+    database: '#####'
 });
 
 mysqlConnection.connect(function (err) {
@@ -13,7 +13,7 @@ mysqlConnection.connect(function (err) {
         console.log(err);
         return;
     } else {
-        console.log('DB conectada');
+        console.log('DB Connected Succesfuly');
     }
 });
 
